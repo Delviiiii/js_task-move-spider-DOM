@@ -1,0 +1,2 @@
+var t=document.querySelector("img.spider"),e=t.offsetHeight/2,f=t.offsetWidth/2;document.querySelector("body div.wall").addEventListener("click",function(n){var i=n.currentTarget,o=[i.offsetLeft+i.clientLeft,i.offsetLeft+i.clientLeft+i.clientWidth],l=[i.offsetTop+i.clientTop,i.offsetTop+i.clientTop+i.clientHeight],c=function(){return n.clientX-f-o[0]+"px"},r=function(){return n.clientY-e-l[0]+"px"};c()<=o[0]?t.style.left=o[0]:t.style.left=c(),r()<=l[0]?t.style.top=l[0]:t.style.top=r()});
+//# sourceMappingURL=index.837b1aab.js.map
